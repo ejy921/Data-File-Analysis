@@ -1,0 +1,22 @@
+INFJ    ||||||  (2.9)
+INFP    |||||||||||||  (6.4)
+ENFP    |||||||||||||||  (7.5)
+ENFJ    |||||  (2.3)
+INTJ    |||||||  (3.1)
+INTP    |||||||||  (4.5)
+ENTP    ||||||  (3.0)
+ENTJ    ||||  (1.8)
+ISTJ    ||||||||||||||||||||||||||||||||||||  (17.6)
+ISTP    |||||||||||||||||||||  (10.4)
+ESTP    ||||||||||  (4.9)
+ESTJ    ||||||||||||||||  (8.0)
+ISFJ    ||||||||||||||||||||||  (10.6)
+ISFP    ||||||||||||||  (6.7)
+ESFP    |||||||||||  (5.1)
+ESFJ    |||||||||||  (5.2)
+
+
+Mode type/ most common MBTI type: ISTJ, with percentage of 17.6%
+
+The mean percentage is 6.25%.
+Therefore the MBTI type with the percentage value closest to the mean is INFP, with percentage of 6.4%.
