@@ -1,0 +1,30 @@
+Test Plan for Homework 2 - mbti-stats.c
+
+This test will include testing of valid and expected inputs, as well as
+unexpected values in order to read input from a file, save it into an
+array, and perform various analyses and print out a diagram from the
+results.
+
+Checklist:
+- Opens and reads in file successfully
+- reads in each line of the file and saves it into an array
+- check if the data is readable and in the correct data type before
+converting the string into float
+- if the data is not convertible to a float, print and return an error
+- writes on a file that is created and prints out the histogram according
+to the statistics
+- prints out the percentages alongside
+- finds the mode, and the index of the mode value
+- calculates the mean
+- find the index of the mean value
+- prints on the file the statistical analyses
+- closes file successfully
+- program terminates successfully
+
+As mentioned above, it is possible to check for invalid data types that are
+not convertible to floats by using the return type of atof.
+
+I also consistently checked for mean and median values during the program
+with commented print statements to check while writing the program.
+
+The program completed each task in the checklist successfully.
