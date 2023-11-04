@@ -1,0 +1,103 @@
+Script started on 2023-05-12 22:22:20-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+[?2004hgill data-file-analysis$ clang -o mbti-stats mbti-stat.[Ks.c
+[?2004l
+[?2004hgill data-file-analysis$ ./mbti-stats input-file.txt
+[?2004l
+This program opens a file containing statistics for the MBTI population in the USA. It then reads in each line, which is a float corresponding to each MBTI type. There is a statistical analysis that is done, and then prints out a histogram, and the mean and mode of the of the MBTI types.
+INFJ    2.9
+INFP    6.4
+ENFP    7.5
+ENFJ    2.3
+INTJ    3.1
+INTP    4.5
+ENTP    3.0
+ENTJ    1.8
+ISTJ    17.6
+ISTP    10.4
+ESTP    4.9
+ESTJ    8.0
+ISFJ    10.6
+ISFP    6.7
+ESFP    5.1
+ESFJ    5.2
+Please check the file named output-file in the same directory; it will contain the histogram and the statistical analysis of the data.
+[?2004hgill data-file-analysis$ ./mbti-stats input-file.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclang -o mbti-stats mbti-stats.c
+[?2004l
+[?2004hgill data-file-analysis$ clang -o mbti-stats mbti-stats.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P./mbti-stats input-file.txt
+[?2004l
+This program opens a file containing statistics for the MBTI population in the USA. It then reads in each line, which is a float corresponding to each MBTI type. There is a statistical analysis that is done, and then prints out a histogram, and the mean and mode of the of the MBTI types.
+INFJ    Please check the file named output-file in the same directory; it will contain the histogram and the statistical analysis of the data.
+[?2004hgill data-file-analysis$ ./mbti-stats input-file.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclang -o mbti-stats mbti-stats.c
+[?2004l
+[?2004hgill data-file-analysis$ clang -o mbti-stats mbti-stats.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P./mbti-stats input-file.txt
+[?2004l
+This program opens a file containing statistics for the MBTI population in the USA. It then reads in each line, which is a float corresponding to each MBTI type. There is a statistical analysis that is done, and then prints out a histogram, and the mean and mode of the of the MBTI types.
+INFJ    [?2004hgill data-file-analysis$ ^C[?2004l
+[?2004h[?2004l
+
+[?2004hgill data-file-analysis$ exis[Kt
+[?2004l
+exit
+
+Script done on 2023-05-12 22:24:32-05:00 [COMMAND_EXIT_CODE="130"]
+
+Copy of the file content:
+
+INFJ    ||||||  (2.9)
+INFP    |||||||||||||  (6.4)
+ENFP    |||||||||||||||  (7.5)
+ENFJ    |||||  (2.3)
+INTJ    |||||||  (3.1)
+INTP    |||||||||  (4.5)
+ENTP    ||||||  (3.0)
+ENTJ    ||||  (1.8)
+ISTJ    ||||||||||||||||||||||||||||||||||||  (17.6)
+ISTP    |||||||||||||||||||||  (10.4)
+ESTP    ||||||||||  (4.9)
+ESTJ    ||||||||||||||||  (8.0)
+ISFJ    ||||||||||||||||||||||  (10.6)
+ISFP    ||||||||||||||  (6.7)
+ESFP    |||||||||||  (5.1)
+ESFJ    |||||||||||  (5.2)
+
+
+Mode type/ most common MBTI type: ISTJ, with percentage of 17.6%
+
+The mean percentage is 6.25%.
+Therefore the MBTI type with the percentage value closest to the mean is INFP, with percentage of 6.4%.
+
+
+
+
+
+
+
+WHEN THE INPUT FILE HAS INCORRECT DATA TYPE
+
+Script started, output log file is 'mbti-transcript-3.txt'.
+gill data-file-analysis$ clang -o mbti-stats mbti-stats.c
+gill data-file-analysis$ ./mbti-stats input-file.txt
+This program opens a file containing statistics for the MBTI population in the USA. It then reads in each line, which is a float corresponding to each MBTI type. There is a statistical analysis that is done, and then prints out a histogram, and the mean and mode of the of the MBTI types.
+INFJ    
+
+The program did not run successfully.
+
+gill data-file-analysis$ 
+
+
+This program opens a file containing statistics for the MBTI population in the USA. It then reads in each line, which is a float corresponding to each MBTI type. There is a statistical analysis that is done, and then prints out a histogram, and the mean and mode of the of the MBTI types.
+INFJ    
+
+The program did not run successfully.
+
+
+Copy of the file content:
+
+
+INFJ    Error; input is not the correct data type.
+
+
